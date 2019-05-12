@@ -32,43 +32,52 @@
 					</div>
 					<div>
 						<img src="imgs/twitter.png" alt="Twitter logo" style="vertical-align:middle" />
-						<span><a href="https://twitter.com/SmartDevsUg">@SmartDevsUg</a></span>
+						<span>
+							<a href="https://twitter.com/RyanONeill1970">@ryanoneill1970</a>&nbsp;&nbsp;
+							<a href="https://twitter.com/joejcollins">@joejcollins</a>
+						</span>
 					</div>
+					<aside class="notes">
+						Welcome to Ludlow, thank you for coming.<br/>
+						You can contact me or Ryan on the Twitter.
+					</aside>
 				</section>
 				<section>
-					<h3>Thanks to our sponsors</h3>
+					<h3>Shout out to our sponsors</h3>
 					<ul>
 						<li>Zengenti - pizza</li>
 						<li>Blue Boar - venue</li>
-						<li>Manning</li>
-						<li>OzCode</li>
-						<li>JetBrains</li>
+						<li>JetBrains - licenses</li>
 						<li>.NET Foundation - meetup</li>
+						<li>Cloudflare - travel</li>
 					</ul>
+					<aside class="notes">
+						Before we begin we have these important messages from our sponsors<br/>
+						Zengenti - always looking for talent.<br/>
+						The Blue Boar - great local beers since 1650.<br/>
+						JetBrains - promotional licences.<br/>
+						.NET Foundation - supporting .NET developer communities around the world.<br/>
+						Cloudflare - mitigating DDoS since 2009.
+					</aside>
 				</section>
-				<section>
-					<table>
-						<tr>
-							<td>
-								<img src="imgs/ryan.png" alt="Ryan" style="vertical-align:middle" />
-							</td>
-							<td style="vertical-align:middle" >
-								Ryan O'Neill<br />
-								<a href="https://twitter.com/RyanONeill1970">@ryanoneill1970</a><br />
-								<a href="mailto:r@ryanoneill.com">r@ryanoneill.com</a>
-							</td>
-						</tr>
-						<tr>
-							<td>
-								<img src="imgs/joe.png" alt="Joe" style="vertical-align:middle" />
-							</td>
-							<td style="vertical-align:middle" >
-								Joe Collins<br />
-								<a href="https://twitter.com/joejcollins">@joejcollins</a><br />
-								<a href="mailto:joejcollins@gmail.com">joejcollins@gmail.com</a>
-							</td>
-						</tr>
-					</table>
+				<!--
+				<section data-background="imgs/cloudflare-1.png">
+					<aside class="notes">
+							Cloudflare runs 10% of the Internet, providing performance and security to millions of websites. 
+							Over 7 million websites, API’s, and apps put Cloudflare in front of their servers to speed up performance, 
+							mitigate DDoS attacks, and improve web security. 
+					</aside>
+				</section>
+				<section data-background="imgs/cloudflare-2.png">
+					<aside class="notes">
+							Cloudflare sits between your web server and the rest of the Internet, serving your content cached from 135+ data centers all over the world. 
+					</aside>
+				</section>
+				-->
+				<section data-background="imgs/cloudflare-3.png">
+					<aside class="notes">
+						Mitigated some of the largest DDoS attacks in history and have a network capacity of over 15 Terabits per second.
+					</aside>
 				</section>
 				<section>
 					<h3>Debugging with Visual Studio</h3>
@@ -92,9 +101,14 @@
 					<h3>R for Developers</h3>
 					<p>Monday, May 13, 2019</p>
 					<img src="imgs/2019-05-steph-locke.png" alt="Steph" width="50%" />
-					<p>Learn about R from a developer perspective<br/> with Steph Locke.</p>
+					<p>R from a developer perspective<br/> with Steph Locke.</p>
+					<aside class="notes">
+						Welcome Steph Locke from Cardiff
+						Steph is a data scientist and Microsoft AI MVP.
+						She is a pillar of the developer community
+						and I'd like to thank her for supporting us. 
+					</aside>
 				</section>
-
 			</div>
 		</div>
 
@@ -107,10 +121,7 @@
 			// - https://github.com/hakimel/reveal.js#dependencies
 			Reveal.initialize({
 				dependencies: [
-					{ src: 'plugin/markdown/marked.js' },
-					{ src: 'plugin/markdown/markdown.js' },
-					{ src: 'plugin/notes/notes.js', async: true },
-					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+					{ src: 'plugin/notes/notes.js', async: true }
 				]
 			});
 		</script>
